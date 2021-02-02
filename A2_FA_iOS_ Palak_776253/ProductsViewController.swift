@@ -31,54 +31,54 @@ class ProductsViewController: UITableViewController,UISearchBarDelegate {
         if products.count == 0
         {
             let firstProvider = Provider(context: context)
-            firstProvider.provider = "Tata"
+            firstProvider.provider = "Cars"
             
             let pro1 = Product(context: context)
-            pro1.productDesc = "salty"
-            pro1.productID = "001"
-            pro1.productName = "salt"
-            pro1.productPrice = "100"
+            pro1.productDesc = "Best possible speed out there "
+            pro1.productID = "C1"
+            pro1.productName = "Jaguar"
+            pro1.productPrice = "2000"
             pro1.provider = firstProvider
             
             let pro2 = Product(context: context)
-            pro2.productDesc = "skyyy"
-            pro2.productID = "002"
-            pro2.productName = "sky"
-            pro2.productPrice = "300"
+            pro2.productDesc = "well suited for the joint family and budget oriented "
+            pro2.productID = "C2"
+            pro2.productName = "Honda Civic"
+            pro2.productPrice = "2500"
             pro2.provider = firstProvider
             
             let secondProvider = Provider(context: context)
-            secondProvider.provider = "Suzuki"
+            secondProvider.provider = "Tommy hilfiger"
             
             let pro3 = Product(context: context)
-            pro3.productDesc = "p1dis"
-            pro3.productID = "001"
-            pro3.productName = "bike"
+            pro3.productDesc = "best for wearing while exercise"
+            pro3.productID = "T1"
+            pro3.productName = "Shoes"
             pro3.productPrice = "100"
             pro3.provider = secondProvider
             
             let pro4 = Product(context: context)
-            pro4.productDesc = "p1dis"
-            pro4.productID = "002"
-            pro4.productName = "car"
+            pro4.productDesc = "best for wearing while exercise"
+            pro4.productID = "T2"
+            pro4.productName = "Track suit"
             pro4.productPrice = "300"
             pro4.provider = secondProvider
             
             let thirdProvider = Provider(context: context)
-            thirdProvider.provider = "BMW"
+            thirdProvider.provider = "Nestle"
             
             let pro5 = Product(context: context)
-            pro5.productDesc = "p1dis"
-            pro5.productID = "001"
-            pro5.productName = "bike"
-            pro5.productPrice = "100"
+            pro5.productDesc = "Coffee releives stress"
+            pro5.productID = "N1"
+            pro5.productName = "Coffee"
+            pro5.productPrice = "20"
             pro5.provider = thirdProvider
             
             let pro6 = Product(context: context)
-            pro6.productDesc = "p1dis"
-            pro6.productID = "002"
-            pro6.productName = "car"
-            pro6.productPrice = "300"
+            pro6.productDesc = "Eat day and night, so tasty"
+            pro6.productID = "N2"
+            pro6.productName = "Noodles"
+            pro6.productPrice = "15"
             pro6.provider = thirdProvider
  
             try! context.save()
