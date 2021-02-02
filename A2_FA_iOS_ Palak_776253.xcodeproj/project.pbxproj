@@ -12,12 +12,12 @@
 		21C8D9D425C8B8DA00658DD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C8D9D325C8B8DA00658DD6 /* ViewController.swift */; };
 		21C8D9DC25C8B8DB00658DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C8D9DB25C8B8DB00658DD6 /* Assets.xcassets */; };
 		21C8D9DF25C8B8DB00658DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C8D9DD25C8B8DB00658DD6 /* LaunchScreen.storyboard */; };
-		21D0409225C9FAD3008E8CD9 /* ProductsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21D0409025C9FAD3008E8CD9 /* ProductsModel.xcdatamodeld */; };
 		21EC571325CA029C000FA4E7 /* AddProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC571025CA029C000FA4E7 /* AddProviderViewController.swift */; };
 		21EC571425CA029C000FA4E7 /* GetProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC571125CA029C000FA4E7 /* GetProductsTableViewController.swift */; };
 		21EC571525CA029C000FA4E7 /* AddProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC571225CA029C000FA4E7 /* AddProductTableViewController.swift */; };
 		21EC571725CA02B0000FA4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC571625CA02B0000FA4E7 /* Main.storyboard */; };
 		21EC571B25CA0605000FA4E7 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC571A25CA0605000FA4E7 /* ProductTableViewController.swift */; };
+		21EC572125CA116A000FA4E7 /* ProductsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21EC571F25CA116A000FA4E7 /* ProductsModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +28,12 @@
 		21C8D9DB25C8B8DB00658DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21C8D9DE25C8B8DB00658DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21C8D9E025C8B8DB00658DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21D0409125C9FAD3008E8CD9 /* ProductsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductsModel.xcdatamodel; sourceTree = "<group>"; };
 		21EC571025CA029C000FA4E7 /* AddProviderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProviderViewController.swift; sourceTree = "<group>"; };
 		21EC571125CA029C000FA4E7 /* GetProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetProductsTableViewController.swift; sourceTree = "<group>"; };
 		21EC571225CA029C000FA4E7 /* AddProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductTableViewController.swift; sourceTree = "<group>"; };
 		21EC571625CA02B0000FA4E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		21EC571A25CA0605000FA4E7 /* ProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		21EC572025CA116A000FA4E7 /* ProductsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductsModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +50,7 @@
 		21C8D9C325C8B8DA00658DD6 = {
 			isa = PBXGroup;
 			children = (
+				21EC571F25CA116A000FA4E7 /* ProductsModel.xcdatamodeld */,
 				21C8D9CE25C8B8DA00658DD6 /* A2_FA_iOS_ Palak_776253 */,
 				21C8D9CD25C8B8DA00658DD6 /* Products */,
 			);
@@ -74,7 +75,6 @@
 				21EC571625CA02B0000FA4E7 /* Main.storyboard */,
 				21C8D9DD25C8B8DB00658DD6 /* LaunchScreen.storyboard */,
 				21C8D9E025C8B8DB00658DD6 /* Info.plist */,
-				21D0409025C9FAD3008E8CD9 /* ProductsModel.xcdatamodeld */,
 			);
 			path = "A2_FA_iOS_ Palak_776253";
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 			files = (
 				21EC571425CA029C000FA4E7 /* GetProductsTableViewController.swift in Sources */,
 				21C8D9D425C8B8DA00658DD6 /* ViewController.swift in Sources */,
+				21EC572125CA116A000FA4E7 /* ProductsModel.xcdatamodeld in Sources */,
 				21C8D9D025C8B8DA00658DD6 /* AppDelegate.swift in Sources */,
 				21C8D9D225C8B8DA00658DD6 /* SceneDelegate.swift in Sources */,
-				21D0409225C9FAD3008E8CD9 /* ProductsModel.xcdatamodeld in Sources */,
 				21EC571325CA029C000FA4E7 /* AddProviderViewController.swift in Sources */,
 				21EC571B25CA0605000FA4E7 /* ProductTableViewController.swift in Sources */,
 				21EC571525CA029C000FA4E7 /* AddProductTableViewController.swift in Sources */,
@@ -363,14 +363,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		21D0409025C9FAD3008E8CD9 /* ProductsModel.xcdatamodeld */ = {
+		21EC571F25CA116A000FA4E7 /* ProductsModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				21D0409125C9FAD3008E8CD9 /* ProductsModel.xcdatamodel */,
+				21EC572025CA116A000FA4E7 /* ProductsModel.xcdatamodel */,
 			);
-			currentVersion = 21D0409125C9FAD3008E8CD9 /* ProductsModel.xcdatamodel */;
-			name = ProductsModel.xcdatamodeld;
-			path = "../../../../Downloads/A2_FA_iOS_Gagandeep_C0764922-d26d39f633603e27f1b564391a2e7b87c6fcf137/A2_FA_iOS_Gagandeep_C0764922/ProductsModel.xcdatamodeld";
+			currentVersion = 21EC572025CA116A000FA4E7 /* ProductsModel.xcdatamodel */;
+			path = ProductsModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
