@@ -50,7 +50,6 @@
 		21C8D9C325C8B8DA00658DD6 = {
 			isa = PBXGroup;
 			children = (
-				21EC571F25CA116A000FA4E7 /* ProductsModel.xcdatamodeld */,
 				21C8D9CE25C8B8DA00658DD6 /* A2_FA_iOS_ Palak_776253 */,
 				21C8D9CD25C8B8DA00658DD6 /* Products */,
 			);
@@ -74,6 +73,7 @@
 				21C8D9DB25C8B8DB00658DD6 /* Assets.xcassets */,
 				21EC571625CA02B0000FA4E7 /* Main.storyboard */,
 				21C8D9DD25C8B8DB00658DD6 /* LaunchScreen.storyboard */,
+				21EC571F25CA116A000FA4E7 /* ProductsModel.xcdatamodeld */,
 				21C8D9E025C8B8DB00658DD6 /* Info.plist */,
 			);
 			path = "A2_FA_iOS_ Palak_776253";
@@ -369,7 +369,8 @@
 				21EC572025CA116A000FA4E7 /* ProductsModel.xcdatamodel */,
 			);
 			currentVersion = 21EC572025CA116A000FA4E7 /* ProductsModel.xcdatamodel */;
-			path = ProductsModel.xcdatamodeld;
+			name = ProductsModel.xcdatamodeld;
+			path = ../ProductsModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
