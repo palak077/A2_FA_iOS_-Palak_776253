@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sNO-Rm-Qri">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sNO-Rm-Qri">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,13 +11,14 @@
         <!--Add Provider View Controller-->
         <scene sceneID="Sgt-p6-PqL">
             <objects>
-                <viewController id="Tea-X2-vWN" customClass="AddProviderViewController" customModule="A2_FA_iOS_Gagandeep_C0764922" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tea-X2-vWN" customClass="AddProviderViewController" customModule="A2_FA_iOS__Palak_776253" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2yX-Gp-74d">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Provider Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Coy-rn-o4B">
                                 <rect key="frame" x="0.0" y="10" width="414" height="34"/>
+                                <color key="backgroundColor" red="0.9371456503868103" green="0.72430884838104248" blue="0.90187859535217285" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -32,6 +33,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="UVn-WZ-iVx">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="AOG-CQ-3ha">
+                            <color key="tintColor" red="0.79702699184417725" green="0.94490927457809448" blue="0.86230272054672241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="save:" destination="Tea-X2-vWN" id="Lot-WY-ldZ"/>
                             </connections>
@@ -48,11 +50,12 @@
         <!--Get Products Table View Controller-->
         <scene sceneID="Smj-Pf-zWE">
             <objects>
-                <tableViewController id="jSS-RI-tDy" customClass="GetProductsTableViewController" customModule="A2_FA_iOS_Gagandeep_C0764922" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="jSS-RI-tDy" customClass="GetProductsTableViewController" customModule="A2_FA_iOS__Palak_776253" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2Ng-RQ-ZZn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="sectionIndexBackgroundColor" red="0.9371456503868103" green="0.72430884838104248" blue="0.90187859535217285" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="XnG-9b-b1n">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.666667938232422"/>
@@ -61,6 +64,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -77,14 +81,17 @@
         <!--Product Table View Controller-->
         <scene sceneID="GNo-qg-afP">
             <objects>
-                <tableViewController id="9tI-Vh-xRL" customClass="ProductTableViewController" customModule="A2_FA_iOS_Gagandeep_C0764922" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="9tI-Vh-xRL" customClass="ProductTableViewController" customModule="A2_FA_iOS__Palak_776253" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oxa-FU-UQC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" id="QgR-ie-zlq">
+                        <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search for the products or provider" id="QgR-ie-zlq">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
                                 <outlet property="delegate" destination="9tI-Vh-xRL" id="U3t-Zd-qiL"/>
@@ -114,6 +121,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -126,6 +134,7 @@
                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="FKn-Mi-VFq">
                             <rect key="frame" x="135.66666666666666" y="6" width="142.99999999999997" height="32"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <segments>
                                 <segment title="Product"/>
                                 <segment title="Provider"/>
@@ -135,7 +144,7 @@
                             </connections>
                         </segmentedControl>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="rmF-ac-eZq">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" red="0.0" green="0.91397970914840698" blue="0.99654561281204224" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="add:" destination="9tI-Vh-xRL" id="r0T-Q0-842"/>
                             </connections>
@@ -156,7 +165,7 @@
         <!--Add Product Table View Controller-->
         <scene sceneID="fWX-jy-m6b">
             <objects>
-                <tableViewController id="fVT-eY-uvg" customClass="AddProductTableViewController" customModule="A2_FA_iOS_Gagandeep_C0764922" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="fVT-eY-uvg" customClass="AddProductTableViewController" customModule="A2_FA_iOS__Palak_776253" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="98g-Fu-4pe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -173,6 +182,8 @@
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Product ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T56-kV-VC4">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                    <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
@@ -194,6 +205,8 @@
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Product Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jXk-kI-3YJ">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                    <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
@@ -215,6 +228,7 @@
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Product Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aj2-4S-SMV">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                    <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
@@ -236,6 +250,7 @@
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Product Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r1V-BW-YPa">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                    <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
@@ -257,6 +272,7 @@
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Provider" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n1m-8d-LBq">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                                    <color key="backgroundColor" red="0.92920368909835815" green="0.66842931509017944" blue="0.87345272302627563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
@@ -279,6 +295,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="RfG-DL-ICW">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="hP1-K4-zSh">
+                            <color key="tintColor" red="0.0" green="0.99618047475814819" blue="0.88091862201690674" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="save:" destination="fVT-eY-uvg" id="3KW-Bu-cew"/>
                             </connections>
@@ -299,20 +316,20 @@
         <!--Navigation Controller-->
         <scene sceneID="bWV-ko-QCM">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="arM-go-WBA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sNO-Rm-Qri" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="ht2-fw-ccE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
-                        <color key="barTintColor" systemColor="systemPinkColor"/>
+                        <color key="barTintColor" red="0.91159743070602417" green="0.46803039312362671" blue="0.75312775373458862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="9tI-Vh-xRL" kind="relationship" relationship="rootViewController" id="geu-Rp-Gvt"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="arM-go-WBA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-325" y="15"/>
         </scene>

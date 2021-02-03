@@ -1,8 +1,9 @@
 //
 //  ProductTableViewController.swift
-//  A2_FA_iOS_Gagandeep_C0764922
 //
-//  Created by Gagandeep on 1/31/21.
+//  A2_FA_iOS_ Palak_776253
+//
+//  Created by Macbook on 2021-02-01.
 //
 
 import UIKit
